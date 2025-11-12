@@ -1,0 +1,34 @@
+[
+  {
+    "deviceId": "CairoDevice",
+    "connectionString": "HostName=AQiot.azure-devices.net;DeviceId=CairoDevice;SharedAccessKey=lb6G4aNsnbfkvsI3k016qAJoH+SWLXotexkbJmnkLEE="
+  },
+  {
+    "deviceId": "DeltaDevice",
+    "connectionString": "HostName=AQiot.azure-devices.net;DeviceId=DeltaDevice;SharedAccessKey=GPTV2LZ2ohlYMlmNchuGtSom4ue0xai9lB0qTtJLScw="
+  },
+  {
+    "deviceId": "RedSeaDevice",
+    "connectionString": "HostName=AQiot.azure-devices.net;DeviceId=RedSeaDevice;SharedAccessKey=Wv6KJc6LrLhRPn58nPnaxlxwMzVzM9KD8naNuNswGto="
+  },
+  {
+    "deviceId": "CanalCitiesDevice",
+    "connectionString": "HostName=AQiot.azure-devices.net;DeviceId=CanalCitiesDevice;SharedAccessKey=2z05GNTIxxsfENnX2neEmciMVtX7J32zyXsFhnVweF4="
+  },
+  {
+    "deviceId": "NorthCoastDevice",
+    "connectionString": "HostName=AQiot.azure-devices.net;DeviceId=NorthCoastDevice;SharedAccessKey=IO6GQCs3E1VUhro5JjJ5dcxcw6kBoD9g/8Aof41Qhaw="
+  },
+  {
+    "deviceId": "UpperEgyptDevice",
+    "connectionString": "HostName=AQiot.azure-devices.net;DeviceId=UpperEgyptDevice;SharedAccessKey=xcBHg+T7zUu4nJAtXKUg0qkkxDZfYumvx+mEtkYsEwk="
+  },
+  {
+    "deviceId": "NewValleyDevice",
+    "connectionString": "HostName=AQiot.azure-devices.net;DeviceId=NewValleyDevice;SharedAccessKey=rn+l5KiIHYKMjJxT1XQ5gx0RIy4P9wi6nt22gONDTTg="
+  },
+  {
+    "deviceId": "SinaiDevice",
+    "connectionString": "HostName=AQiot.azure-devices.net;DeviceId=SinaiDevice;SharedAccessKey=bX8MwaxeYwNJQqjrDqr2iz5CfH0uaOFqYmu4WqF73Z4="
+  }
+]
