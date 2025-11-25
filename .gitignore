@@ -16,14 +16,21 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
+.pytest_cache/
 
 # Virtual Environment
 venv/
 env/
 ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
 
 # Logs
 logs/
@@ -34,6 +41,9 @@ logs/
 *.xlsx
 *.db
 *.sqlite3
+*.jsonl
+data/
+datasets/
 
 # Configuration secrets
 .devices.json
@@ -41,13 +51,31 @@ config.yaml
 .env
 *.key
 *.pem
+credentials.json
+secrets/
+
+# Azure
+*.pfx
+*.publishsettings
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-project
+*.sublime-workspace
 
 # OS
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Power BI
+*.pbix
