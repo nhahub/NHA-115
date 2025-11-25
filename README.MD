@@ -30,13 +30,39 @@ A comprehensive IoT and AI-powered air quality monitoring system for Egyptian re
 - **Configurable Intervals**: Customizable data transmission rates
 
 ## 🏗️ System Architecture & Workflow
-IoT Devices → Azure IoT Hub → Stream Analytics → Real-time Alerts
-|
-→ Azure Data Lake → Azure Synapse Analytics → Power BI Dashboard
-|
-→ Mistral AI Analysis
-| → Gradio Interface
-→ Actionable Insights
+┌─────────────────┐ ┌──────────────────┐ ┌─────────────────────┐
+│ IoT Devices │ │ Azure IoT Hub │ │ Azure Stream │
+│ (8 Regions) │───▶│ │───▶│ Analytics │
+└─────────────────┘ └──────────────────┘ └─────────────────────┘
+│
+┌──────────────────┐ │
+│ Real-time │ │
+│ Alerts │◀───────────────────┘
+└──────────────────┘
+│
+▼
+┌──────────────────┐ ┌─────────────────────┐
+│ Azure Data Lake │ │ Azure Synapse │
+│ Storage │───▶│ Analytics │
+└──────────────────┘ └─────────────────────┘
+│
+┌──────────────────┐ │
+│ Power BI │◀───────────────────┤
+│ Dashboard │ │
+└──────────────────┘ ▼
+┌─────────────────────┐
+│ Mistral AI │
+│ Analysis │
+└─────────────────────┘
+│
+┌──────────────────┐ │
+│ Gradio │◀───────────────────┤
+│ Interface │ │
+└──────────────────┘ ▼
+┌─────────────────────┐
+│ Actionable │
+│ Insights │
+└─────────────────────┘
 
 
 
@@ -53,7 +79,7 @@ IoT Devices → Azure IoT Hub → Stream Analytics → Real-time Alerts
    - Immediate anomaly detection
 
 3. **Data Warehousing & Analytics**
-   - Azure Synapse Analytics for scalable data storage and processing
+   - **Azure Synapse Analytics** for scalable data storage and processing
    - Advanced SQL queries for complex data analysis
    - Data lake integration for unstructured data
    - Built-in machine learning capabilities
@@ -64,19 +90,36 @@ IoT Devices → Azure IoT Hub → Stream Analytics → Real-time Alerts
    - Storage in Azure Data Lake and Synapse Analytics
 
 5. **AI Analysis & Insights**
-   - Mistral 7B model processes stored data from Synapse
+   - **Mistral 7B** model processes stored data from Synapse
    - Natural language query understanding
    - Pattern recognition and predictive analytics
 
 6. **Visualization & Reporting**
-   - Power BI for enterprise dashboards and reporting
-   - Interactive Gradio dashboard for real-time monitoring
+   - **Power BI** for enterprise dashboards and reporting
+   - Interactive **Gradio** dashboard for real-time monitoring
    - Real-time metrics and historical trends
    - Exportable reports and recommendations
 
 ## 🔧 Azure Services Used
+
 - **Azure IoT Hub**: Device management and data ingestion
 - **Azure Stream Analytics**: Real-time data processing
 - **Azure Synapse Analytics**: Data warehousing and analytics
 - **Azure Data Lake Storage**: Scalable data storage
 - **Power BI**: Business intelligence and visualization
+
+## 📊 Sample Use Cases
+- **Government Agencies**: Monitor regional air quality compliance
+
+- **Healthcare Providers**: Assess environmental health risks
+
+- **Research Institutions**: Analyze pollution patterns and trends
+
+- **General Public**: Access real-time air quality information
+
+### 👥 Team
+- **Hassan Bassiouny**
+- **Ziad Meshref**
+- **Youssef Menisy**
+- **Malak Abdo Ramadan**
+**DEPI AI & Data Science Track Graduation Project**
