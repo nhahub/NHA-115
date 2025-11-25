@@ -57,7 +57,7 @@ A comprehensive IoT and AI-powered air quality monitoring system for Egyptian re
 │   Gradio        │                          │ Actionable      │
 │  Interface      │                          │   Insights      │
 └─────────────────┘                          └─────────────────┘
-
+```
 
 ### 🔄 Data Pipeline Workflow
 
