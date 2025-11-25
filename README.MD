@@ -31,7 +31,7 @@ A comprehensive IoT and AI-powered air quality monitoring system for Egyptian re
 
 ## 🏗️ System Architecture & Workflow
 
-
+```plaintext
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────────┐
 │   IoT Devices   │    │  Azure IoT Hub   │    │ Azure Stream        │
 │    (8 Regions)  │───▶│                  │───▶│ Analytics           │
