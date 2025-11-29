@@ -1,4 +1,4 @@
-# 🇪🇬 Egypt Air Quality Monitoring & AI Analysis
+# AI Air Quality Analysis and Environmental Monitoring System
 
 A comprehensive IoT and AI-powered air quality monitoring system for Egyptian regions, featuring real-time data simulation, Azure IoT integration, and intelligent analysis using Mistral AI. This project demonstrates a full-stack data pipeline from simulated sensor data to actionable AI-driven insights.
 
